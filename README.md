@@ -47,13 +47,13 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 - **Loss value** indicates how well the model is performing during training, where lower loss means better performance
 
 ### **CONFUSION MATRIX**
-<p align="center">
+<p align="left">
   <img width="300" height="300" alt="cm" src="https://github.com/user-attachments/assets/86ea0b8e-f153-4c04-8de6-a30f6c33d285" />
 </p>
 
 ### **CLASSIFICATION REPORT**
-<p align="center">
-  <img width="400" height="6500" alt="cr" src="https://github.com/user-attachments/assets/9356a923-e8a3-432e-9c8e-fefa8ca60bd7" />
+<p align="left">
+  <img width="500" height="650" alt="cr" src="https://github.com/user-attachments/assets/9356a923-e8a3-432e-9c8e-fefa8ca60bd7" />
 </p>
 
 ### **MODEL PERFORMANCE**
