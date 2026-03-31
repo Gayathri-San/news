@@ -48,7 +48,7 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 
 ### **CONFUSION MATRIX**
 <p align="left">
-  <img width="250" height="250" alt="cm" src="https://github.com/user-attachments/assets/6981a1b8-fb54-4c23-a572-35c9d52e0205" />
+  <img width="300" height="300" alt="cm" src="https://github.com/user-attachments/assets/6981a1b8-fb54-4c23-a572-35c9d52e0205" />
 </p>
 
 ### **CLASSIFICATION REPORT**
