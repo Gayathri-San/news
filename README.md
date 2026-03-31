@@ -30,7 +30,36 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 - **EMBEDDING LAYER** : The embedding layer transforms each word vector representation, where similar words have similar values, helping the LSTM understand relationships in the sequence.
 - **LSTM LAYER**      : The LSTM layer analyzes sequences by using memory cells and gating mechanisms to selectively retain important information, discard irrelevant data, and capture long-term dependencies, enabling pattern learning in sequential data.
 - **DENSE LAYER**     : The dense layer receives the extracted features from the LSTM, applies activation functions to combine and transform them, and generates the final output such as predicted value of the class
-- 
+
+### **EVALUATION METRICS**
+- **Accuracy** is used to measure the overall correctness of the model predictions, representing the ratio of correctly predicted instances to total instances. 
+- **Precision** measures how many predicted fake news instances are actually fake, helping to reduce false positive predictions. 
+- **Recall** measures how many actual fake news instances are correctly identified, helping to reduce false negative cases. 
+- **F1-Score** measures the harmonic mean of precision and recall, providing a balanced measure of model performance. 
+- **Loss value** indicates how well the model is performing during training, where lower loss means better performance
+
+### **MODEL PERFORMANCE**
+- The model achieved an overall accuracy of 95%, indicating strong performance on the dataset. 
+- The precision is 0.97 for class 0 and 0.94 for class 1, showing that most predicted values are correct. 
+- The recall is 0.94 for class 0 and 0.96 for class 1, indicating the model effectively identifies actual instances. 
+- The F1-score is approximately 0.95 for both classes, providing a balanced measure of precision and recall. 
+- The model was evaluated on 10,247 samples, ensuring reliable and consistent results. 
+
+### **DEPLOYMENT**
+- The trained model is deployed using Streamlit to create an interactive web application. 
+- The application allows users to input news text and get instant predictions as real or fake. 
+- The saved model file is loaded into the Streamlit app for prediction. 
+- User input is preprocessed in the same way as training data before making predictions. 
+- The system provides a simple and user-friendly interface for easy usage.
+
+### **FUTURE WORK**
+- Improve the model accuracy by using advanced techniques like BERT
+- Increase dataset size and include more diverse  news data for better generalization. 
+- Add support for multiple languages to detect fake news in different regions. 
+- Enhance the application with real-time news verification and API integration. 
+- Improve the user interface and deploy the system on cloud platforms for wider accessibility. 
+
+
 
 
 
