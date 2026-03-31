@@ -15,7 +15,15 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 - It contains a total of 51,233 news records, providing a large amount of data for training 
 - The dataset consists of 3 columns such as  Title, Text ,Label 
 - The large size of the dataset helps the model learn better patterns and improve prediction accuracy 
-- Before training, the dataset undergoes preprocessing steps such as cleaning and formatting 
+- Before training, the dataset undergoes preprocessing steps such as cleaning and formatting
+
+### **TOOLS USED**
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- TensorFlow / Keras
+- Matplotlib / Seaborn
 
 ### **DATA PREPROCESSING**
 - Unnecessary columns were removed to keep only relevant features for the model. 
@@ -38,6 +46,10 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 - **F1-Score** measures the harmonic mean of precision and recall, providing a balanced measure of model performance. 
 - **Loss value** indicates how well the model is performing during training, where lower loss means better performance
 
+### **CONFUSION MATRIX**
+<p align="center">
+  <img width="450" height="450" alt="cm" src="https://github.com/user-attachments/assets/86ea0b8e-f153-4c04-8de6-a30f6c33d285" />
+</p>
 ### **MODEL PERFORMANCE**
 - The model achieved an overall accuracy of 95%, indicating strong performance on the dataset. 
 - The precision is 0.97 for class 0 and 0.94 for class 1, showing that most predicted values are correct. 
@@ -57,7 +69,10 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 - Increase dataset size and include more diverse  news data for better generalization. 
 - Add support for multiple languages to detect fake news in different regions. 
 - Enhance the application with real-time news verification and API integration. 
-- Improve the user interface and deploy the system on cloud platforms for wider accessibility. 
+- Improve the user interface and deploy the system on cloud platforms for wider accessibility.
+
+
+
 
 
 
