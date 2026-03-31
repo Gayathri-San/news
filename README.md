@@ -8,6 +8,6 @@ To develop an LSTM-based model that can classify news articles as real or fake t
 
 ### **PROJECT WORKFLOW**
 <p align="left">
-<img width="450" height="300" alt="image" src="https://github.com/user-attachments/assets/244a1d49-2edb-4f1b-bb81-6e739d9fe860" />
+<img width="350" height="300" alt="image" src="https://github.com/user-attachments/assets/244a1d49-2edb-4f1b-bb81-6e739d9fe860" />
 
 
